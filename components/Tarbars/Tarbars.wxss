@@ -1,0 +1,21 @@
+.tarbar{
+
+}
+.tarbar-title{
+  display: flex;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+}
+.tarbar-title .title-item{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20rpx;
+}
+
+.active{
+  color: var(--themeColor);
+  border-bottom:5rpx solid currentColor;
+}

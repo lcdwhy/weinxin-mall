@@ -1,0 +1,15 @@
+<view class="tarbar">
+    <view class="tarbar-title">
+      <view class="title-item {{item.isActive?'active':''}}" 
+      wx:for="{{tabs}}" 
+      wx:key="id"
+      bindtap="headleItemClick"
+      data-index="{{index}}"
+      >
+        {{item.value}}
+      </view>
+    </view>
+    <view class="tarbar-content">
+      <slot></slot>
+    </view>
+  </view>
